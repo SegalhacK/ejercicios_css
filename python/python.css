@@ -1,0 +1,207 @@
+* {
+    /*outline: 1px solid red;*/
+    margin: 0px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 970px;
+    background: black;
+}
+
+header, .main {
+    background: rgb(38, 81, 117)
+}
+
+/* HEADER SECTION */
+
+header {
+    min-height: 110px;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.controls {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin-left: 390px;
+    color: white;
+}
+
+.controls p {
+    text-align: right;
+}
+
+.controls a {
+    color: rgb(248, 212, 4);
+}
+
+.search-box {
+    border: 15px solid rgb(87, 83, 83);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 4px;
+}
+
+#search-button {
+    background: rgb(38, 81, 117);
+    color: whitesmoke;
+    padding: 3px;
+}
+
+.menu {
+    min-height: 30px;
+    width: 900px;
+    background: rgb(39, 118, 182);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black
+}
+
+.menu ul {
+    font-size: 18px;
+    padding: 31px;
+    text-align: center;
+    display: inline;
+}
+
+.menu ul li {
+    font-size: 20px;
+    padding: 26px;
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+}
+
+.menu li a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* MAIN SECTION */
+
+.main {
+    min-height: 270px;
+    ;
+    padding: 4px;
+}
+
+.nav-menu {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 210px;
+    width: 220px;
+    margin-left: 21px;
+    margin-top: 20px;
+}
+
+.nav-menu ul {
+    margin-right: 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.nav-menu li {
+    line-height: 27px;
+    margin: 0px;
+    color: rgb(248, 212, 4);
+}
+
+.nav-menu a {
+    color: whitesmoke;
+}
+
+.texto {
+    margin-top: 5px;
+    margin-left: 53px;
+    display: inline-block;
+    vertical-align: top;
+    width: 610px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+#texto-encabezado {
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+#motto {
+    color: rgb(248, 212, 4);
+    line-height: 2;
+    font-size: 17px;
+    font-style: italic;
+}
+
+#slang {
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+/* OFFER SECTION */
+
+.offer {
+    background: whitesmoke;
+    min-height: 250px;
+}
+
+.offer-box {
+    border-top: 3px solid teal;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    padding-right: 80px;
+    padding-top: 3px;
+    margin: 20px;
+    text-align: center;
+}
+
+#getting-started {
+    width: 320px;
+    margin-left: 25px;
+}
+
+.offer a {
+    text-decoration: none;
+    color: rgb(21, 146, 146);
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(8, 41, 142, 1) 0%, rgba(7, 60, 155, 1) 0%, rgba(8, 28, 133, 1) 0%, rgba(22, 120, 222, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    min-height: 70px;
+    min-height: 70px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer ul li {
+    display: inline;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+footer a {
+    color: rgb(129, 202, 202);
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(129, 202, 202);
+    font-size: 10px;
+    padding-top: 10px;
+}

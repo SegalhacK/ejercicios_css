@@ -1,0 +1,167 @@
+* {
+    outline: 0px solid blue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#container {
+    margin: 0px auto;
+    padding: 10px;
+    width: 970px;
+}
+
+/* HEADER */
+
+header {
+    display: inline-block;
+    background: grey;
+}
+
+header h1, h3 {
+    display: inline-block;
+}
+
+header h3 {
+    margin-left: 395px;
+}
+
+/* WRAPPER */
+
+.encabezado {
+    margin: 0px 42px;
+}
+
+.wrapper {
+    background: linear-gradient(to right, #1D0D11, #6F5964, #1D0D11);
+    min-height: 500px;
+    padding: 10px;
+    width: 949px;
+}
+
+.wrapper img, .main {
+    display: inline-block;
+}
+
+#photo-jayne {
+    vertical-align: top;
+    width: 414px;
+    border: 5px solid gray;
+}
+
+.main {
+    background: linear-gradient(to right, white, #6F5964);
+    vertical-align: top;
+    width: 430px;
+    margin-left: 6px;
+    font-size: 17px;
+    text-align: justify;
+    min-height: 263px;
+    text-indent: 12px;
+}
+
+.main h3 {
+    background: linear-gradient(180deg, darkgray, gray, darkgray);
+    color: ivory;
+    margin: 0px auto;
+    display: block;
+    text-indent: 12px;
+}
+
+.main p, a {
+    margin: 12px;
+}
+
+.main a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ADICIONALES MAIN */
+
+.apps {
+    margin: 0px 28px;
+    padding: 12px;
+    min-height: 400px;
+    display: inline-block;
+}
+
+.adicional {
+    display: inline-block;
+    max-width: 271px;
+    min-height: 575px;
+    padding: 1px;
+    background: linear-gradient(to right, white, #6F5964);
+    vertical-align: top;
+    margin: 5px;
+}
+
+.adicional h4 {
+    color: white;
+    background: linear-gradient(180deg, darkgray, gray, darkgray);
+    margin: 0px auto;
+    padding: 5px;
+}
+
+.adicional p {
+    font-size: ;
+    text-align: justify;
+    padding: 8px;
+}
+
+.adicional img {
+    width: 252px;
+}
+
+.icons {
+    margin: 3px auto;
+    display: inline;
+    width: 40px;
+}
+
+.icons img {
+    width: 35px;
+    margin: 5px;
+}
+
+.adicional a {
+    text-align: center;
+    display: block;
+    background: teal;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#la-mode p {
+    margin-bottom: 90px;
+}
+
+#family-contacts p {
+    margin-bottom: 54px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li img {
+    width: 15px;
+}
+
+footer a {
+    color: black;
+}

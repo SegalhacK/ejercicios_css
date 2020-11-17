@@ -1,0 +1,74 @@
+  * {
+    outline: 1px dotted red;
+    color: black
+  }
+  .wrapper {
+    width: 1000px;
+  }
+  #encabezado {
+    background-color: #F8F8F8;;
+    padding-left: 20px;
+  }
+  #jayne{
+    display: inline-block;
+    margin-right: 450px;
+  }
+  #master{
+    display: inline-block;
+  }
+  #contenido{
+    background: linear-gradient(to right, #1D0D11 , #6F5964, #1D0D11);
+  }
+
+
+  #foto {
+    margin: 20px;
+    width: 429px;
+    display: inline-block;
+    border: 6px solid silver;
+    box-sizing: border-box;
+    vertical-align: top;
+  }
+  #about{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to right, white , #6F5964);
+    display: inline-block;
+    width: 500px;
+    height: 260px;
+    margin-top: 20px;
+  }
+  #abouttitulo{
+    background: linear-gradient(180deg, darkgray, gray, darkgray);
+    padding: 10px;
+    color: white;
+  }
+  #abouttexto{
+    color: black;
+    padding: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+
+.boxes{
+  background: linear-gradient(to right, white , #6F5964);
+  display: inline-block;
+  vertical-align: top;
+  width: 290px;
+  height: 555px;
+  margin-left: 29px;
+  
+}
+.boxheader{
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(180deg, darkgray, gray, darkgray);
+  padding: 10px;
+}
+  #piedepagina{
+    background-color: gray;
+  }
+.boximage img{
+  width: 290px;
+}
